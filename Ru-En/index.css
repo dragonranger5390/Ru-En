@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size:contain ;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    min-height: 400px;
+    /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    background: linear-gradient(50deg, #3F2B96 0%, #A8C0FF 100%);
+    background: linear-gradient(220deg, #efd5ff 0%, #515ada 100%);
+    background: linear-gradient(230deg, #FC466B 0%, #3F5EFB 90%);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background: linear-gradient(90deg, #a8ff78, #78ffd6);
+    background: linear-gradient(45deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+    background: linear-gradient(20deg, #215f00 -10%, #e4e4d9 100%); */
+    background: linear-gradient(45deg, #741cd2 -80%, #f2fcfe 80%);
+    box-sizing: border-box;
+}
+
+/* 
+icon_WS = icons8 
+icons8-burger-16.png
+
+brown - blue - green - blue - brown - brown
+
+brown - #7D3C00
+green - #2ECC71
+blue - #3498DB
+
+*/
+
+
+div {
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+input {
+    margin: 3px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-width: 2px;
+    /* border-color:black; */
+    border-style: solid;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.9);
+    backdrop-filter: blur(6px);
+    transition-duration: .3s;
+}
+
+input:hover {
+    background-color: rgb(255, 255, 255, 1);
+    box-shadow: 0 0 20px #741cd2;
+
+
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 20px;
+    /* border: 2px solid rgb(40, 0, 89); */
+    text-align: left;
+    border-radius: 8px;
+    margin-top: 3px;
+    backdrop-filter: blur(10px);
+    border: none;
+    transition-duration: .2s;
+    
+}
+
+button:hover {
+    box-shadow: 0 0 20px #741cd2;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+
+#delete-btn {
+    color: black;
+    background-color: rgba(171, 171, 171, 0.6);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+#delete-btn:hover {
+    background-color: rgba(171, 171, 171, 0.9);
+}
+
+ul {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: black;
+    width: max-content;
+    margin-left: 2px;
+}
+
+li a {
+    transition: 1s ease-in;
+}
+
+li:hover{
+    box-shadow: 0 0 20px rgb(116, 28, 210, 0.2);
+    background-color:rgb(116, 28, 210, 0.1);
+    border-radius: 8px;
+    /* color: white; */
+}
+
+/* button */
+/* #toggle-btn{
+    position:absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    right: 1%;
+    /* bottom: 1%; 
+    top: 10px;
+
+} */
+
+
+
+/* #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+} */
+
+/* 
+h1 {
+    color: goldenrod;
+}
+
+
+p {
+    color: white;
+}
+
+#question-el {
+    font-style: italic;
+}
+
+button {
+    color:#016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    margin: 5px;
+} */
+
+
+
